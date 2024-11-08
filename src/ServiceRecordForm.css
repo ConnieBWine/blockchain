@@ -1,0 +1,166 @@
+.service-record-container {
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: #f5f5f5;
+}
+
+.service-record-box {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-record-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.service-record-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.service-record-subtitle {
+    color: #666;
+}
+
+.service-record-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-weight: 500;
+    color: #333;
+}
+
+.form-input {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-textarea {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-height: 100px;
+    font-size: 1rem;
+}
+
+.upload-section {
+    border: 2px dashed #ddd;
+    padding: 2rem;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.upload-label {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.upload-icon {
+    font-size: 2rem;
+    color: #666;
+}
+
+.upload-text {
+    font-weight: 500;
+}
+
+.upload-subtext {
+    color: #666;
+    font-size: 0.875rem;
+}
+
+.file-list {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.file-item {
+    padding: 0.5rem;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    font-size: 0.875rem;
+}
+
+.submit-button {
+    padding: 1rem;
+    background-color: #4a6ee0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.error-message {
+    padding: 1rem;
+    background-color: #fee2e2;
+    color: #991b1b;
+    border-radius: 4px;
+}
+
+.success-message {
+    padding: 1rem;
+    background-color: #dcfce7;
+    color: #166534;
+    border-radius: 4px;
+}
+
+.hidden {
+    display: none;
+}
+
+.processing-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.processing-details {
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+.transaction-pending {
+    background: #4a6ee0;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.transaction-hash {
+    font-family: monospace;
+    word-break: break-all;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    margin: 0.5rem 0;
+}
